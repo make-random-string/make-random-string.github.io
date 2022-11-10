@@ -1,0 +1,6 @@
+export const hiragana="あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん"
+export const katakana="アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン"
+export const hiraganaDakuon="がぎぐげござじずぜぞだぢづでどばびぶべぼぱぴぷぺぽ"
+export const katakanaDakuon="ガギグゲゴザジズゼゾダヂヅデトバビブベボパピプペポ"
+export const smallAlphabet="abcdefghijklmnopqrstuvxwz"
+export const bigAlphabet="ABCDEFGHIJKLMNOPQRSTUVWXWZ"
