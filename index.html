@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <title>make random string</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+    <h1>ランダム文字列ジェネレータ</h1>
+    <table border="1">
+      <tr><td>あ～ん</td><td><input type="checkbox" id="addHiragana" checked></td></tr>
+      <tr><td>ア～ン</td><td><input type="checkbox" id="addKatakana"></td></tr>
+      <tr><td>濁音、半濁音(ひらがな)</td><td><input type="checkbox" id="addHDakuon"></td></tr>
+      <tr><td>濁音、半濁音(カタカナ)</td><td><input type="checkbox" id="addKDakuon"></td></tr>
+      <tr><td>a~z</td><td><input type="checkbox" id="addSmall"></td></tr>
+      <tr><td>A~Z</td><td><input type="checkbox" id="addBig"></td></tr>
+      <tr><td>その他カスタム文字</td><td><input id="customString"></td></tr>
+      <tr><td>文字列の長さの範囲</td><td><div>
+        <input id="minLength" type="number" width="123" value="3">～<input id="maxLength" type="number" value="5">
+      </div></td></tr>
+      <tr><td>作成する文字列の数</td><td><input id="stringsLength" type="number" value="20"></td></tr>
+    </table>
+    <input id="run" type="submit" value="作成">
+    <textarea id="result" readonly></textarea>
+  </body>
+</html>
